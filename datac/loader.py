@@ -1,5 +1,5 @@
 import telebot
 
-from data import config
+from datac import config
 
 bot = telebot.TeleBot(config.TOKEN)

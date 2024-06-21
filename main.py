@@ -1,4 +1,4 @@
-from data.loader import bot
+from datac.loader import bot
 
 from handlers import handler_com, handler_call
 

@@ -1,7 +1,7 @@
 from telebot import types
 
-from data.loader import bot
-from data.text import *
+from datac.loader import bot
+from datac.text import *
 
 
 @bot.callback_query_handler(func=lambda call: call.data == 'call_step_1')
